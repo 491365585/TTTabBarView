@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04484A4121EDC10100AAC43A /* TTTabBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 04484A3F21EDC10100AAC43A /* TTTabBarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04484A5421EDC3A900AAC43A /* TTTabBarView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04484A3C21EDC10100AAC43A /* TTTabBarView.framework */; };
+		04484A5F21EDC41800AAC43A /* FixedTabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04484A5A21EDC41800AAC43A /* FixedTabbarView.swift */; };
+		04484A6221EDC41800AAC43A /* TTTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04484A5D21EDC41800AAC43A /* TTTabBarView.swift */; };
+		04484A6321EDC41800AAC43A /* TabbarShowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04484A5E21EDC41800AAC43A /* TabbarShowView.swift */; };
+		04484A6621EDC43900AAC43A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04484A6421EDC43800AAC43A /* Info.plist */; };
+		04484A6721EDC43900AAC43A /* TTTabBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 04484A6521EDC43800AAC43A /* TTTabBarView.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04484A3C21EDC10100AAC43A /* TTTabBarView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TTTabBarView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		04484A3F21EDC10100AAC43A /* TTTabBarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTTabBarView.h; sourceTree = "<group>"; };
-		04484A4021EDC10100AAC43A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04484A5A21EDC41800AAC43A /* FixedTabbarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FixedTabbarView.swift; sourceTree = "<group>"; };
+		04484A5D21EDC41800AAC43A /* TTTabBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTTabBarView.swift; sourceTree = "<group>"; };
+		04484A5E21EDC41800AAC43A /* TabbarShowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarShowView.swift; sourceTree = "<group>"; };
+		04484A6421EDC43800AAC43A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04484A6521EDC43800AAC43A /* TTTabBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTabBarView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,6 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04484A5421EDC3A900AAC43A /* TTTabBarView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,8 +55,11 @@
 		04484A3E21EDC10100AAC43A /* TTTabBarView */ = {
 			isa = PBXGroup;
 			children = (
-				04484A3F21EDC10100AAC43A /* TTTabBarView.h */,
-				04484A4021EDC10100AAC43A /* Info.plist */,
+				04484A5A21EDC41800AAC43A /* FixedTabbarView.swift */,
+				04484A5E21EDC41800AAC43A /* TabbarShowView.swift */,
+				04484A5D21EDC41800AAC43A /* TTTabBarView.swift */,
+				04484A6421EDC43800AAC43A /* Info.plist */,
+				04484A6521EDC43800AAC43A /* TTTabBarView.h */,
 			);
 			path = TTTabBarView;
 			sourceTree = "<group>";
@@ -59,7 +71,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04484A4121EDC10100AAC43A /* TTTabBarView.h in Headers */,
+				04484A6721EDC43900AAC43A /* TTTabBarView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +107,7 @@
 				TargetAttributes = {
 					04484A3B21EDC10100AAC43A = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -120,6 +133,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04484A6621EDC43900AAC43A /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04484A6221EDC41800AAC43A /* TTTabBarView.swift in Sources */,
+				04484A5F21EDC41800AAC43A /* FixedTabbarView.swift in Sources */,
+				04484A6321EDC41800AAC43A /* TabbarShowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +278,7 @@
 		04484A4521EDC10100AAC43A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -277,6 +295,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ttswift.TTTabBarView;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -285,6 +304,7 @@
 		04484A4621EDC10100AAC43A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
