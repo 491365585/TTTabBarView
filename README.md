@@ -23,13 +23,11 @@ pod TTTabBarView
         view.addSubview(tabbarShowView)
         
         tabbarView.tabbarShowView = tabbarShowView
-        tabbarShowView.delegate = self
         tabbarView.firstIndex = 2
-        tabbarView.frame = CGRect(x: 0, y:  navHeight, width: screenWidth, height: 35)
-        tabbarShowView.frame = CGRect(x: 0, y: 35 + navHeight, width: screenWidth, height: screenHeight - 35 - navHeight)
         tabbarView.rowColor = UIColor.red
         tabbarView.titleSelectColor = UIColor.red
-        
+        tabbarView.frame = CGRect(x: 0, y:  navHeight, width: screenWidth, height: 35)
+        tabbarShowView.frame = CGRect(x: 0, y: 35 + navHeight, width: screenWidth, height: screenHeight - 35 - navHeight)
         
 
         tabbarView.moveViewIsFirst = {[unowned self] index in
