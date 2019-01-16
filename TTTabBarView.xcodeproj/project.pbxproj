@@ -10,12 +10,14 @@
 		04484A5F21EDC41800AAC43A /* FixedTabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04484A5A21EDC41800AAC43A /* FixedTabbarView.swift */; };
 		04484A7321EDDEBC00AAC43A /* TTTabBarView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04484A3C21EDC10100AAC43A /* TTTabBarView.framework */; };
 		04484A7621EDDF0300AAC43A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04484A7421EDDEF300AAC43A /* Info.plist */; };
+		04A665BC21EF204C00D5AD58 /* tttabbar.gif in Resources */ = {isa = PBXBuildFile; fileRef = 04A665BB21EF204C00D5AD58 /* tttabbar.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04484A3C21EDC10100AAC43A /* TTTabBarView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TTTabBarView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04484A5A21EDC41800AAC43A /* FixedTabbarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FixedTabbarView.swift; sourceTree = "<group>"; };
 		04484A7421EDDEF300AAC43A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04A665BB21EF204C00D5AD58 /* tttabbar.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = tttabbar.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			children = (
 				04484A5A21EDC41800AAC43A /* FixedTabbarView.swift */,
 				04484A7421EDDEF300AAC43A /* Info.plist */,
+				04A665BB21EF204C00D5AD58 /* tttabbar.gif */,
 			);
 			path = TTTabBarView;
 			sourceTree = "<group>";
@@ -131,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04A665BC21EF204C00D5AD58 /* tttabbar.gif in Resources */,
 				04484A7621EDDF0300AAC43A /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

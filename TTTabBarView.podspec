@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
   spec.version      = "1.0.5"
   spec.summary      = "My TTTabBarView"
   spec.description  = <<-DESC
-			My TTTabBarView Test!!!
+			My TTTabBarView pod!!!
                    DESC
 
   spec.homepage     = "https://github.com/491365585"
