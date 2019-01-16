@@ -5,8 +5,7 @@ swift版tabbar标签栏。测试封装框架用
 
 首次尝试封装框架成功!!!!!!!!!!!!!!!!!!!!!!!
 
-![Gif]
-(https://github.com/491365585/TTTabBarView/blob/master/TTTabBarView/tttabbar.gif)
+![Gif](https://github.com/491365585/TTTabBarView/blob/master/TTTabBarView/tttabbar.gif)
 
 版本
 1.0.5 - 初始版本
