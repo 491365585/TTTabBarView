@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		04484A5F21EDC41800AAC43A /* FixedTabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04484A5A21EDC41800AAC43A /* FixedTabbarView.swift */; };
-		04484A6321EDC41800AAC43A /* TabbarShowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04484A5E21EDC41800AAC43A /* TabbarShowView.swift */; };
 		04484A7321EDDEBC00AAC43A /* TTTabBarView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04484A3C21EDC10100AAC43A /* TTTabBarView.framework */; };
 		04484A7621EDDF0300AAC43A /* TTTabBarView-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04484A7421EDDEF300AAC43A /* TTTabBarView-Info.plist */; };
 /* End PBXBuildFile section */
@@ -16,7 +15,6 @@
 /* Begin PBXFileReference section */
 		04484A3C21EDC10100AAC43A /* TTTabBarView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TTTabBarView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04484A5A21EDC41800AAC43A /* FixedTabbarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FixedTabbarView.swift; sourceTree = "<group>"; };
-		04484A5E21EDC41800AAC43A /* TabbarShowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarShowView.swift; sourceTree = "<group>"; };
 		04484A7421EDDEF300AAC43A /* TTTabBarView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TTTabBarView-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -53,7 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				04484A5A21EDC41800AAC43A /* FixedTabbarView.swift */,
-				04484A5E21EDC41800AAC43A /* TabbarShowView.swift */,
 				04484A7421EDDEF300AAC43A /* TTTabBarView-Info.plist */,
 			);
 			path = TTTabBarView;
@@ -146,7 +143,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				04484A5F21EDC41800AAC43A /* FixedTabbarView.swift in Sources */,
-				04484A6321EDC41800AAC43A /* TabbarShowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
