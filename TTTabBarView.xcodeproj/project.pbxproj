@@ -7,21 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04484A5421EDC3A900AAC43A /* TTTabBarView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04484A3C21EDC10100AAC43A /* TTTabBarView.framework */; };
 		04484A5F21EDC41800AAC43A /* FixedTabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04484A5A21EDC41800AAC43A /* FixedTabbarView.swift */; };
-		04484A6221EDC41800AAC43A /* TTTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04484A5D21EDC41800AAC43A /* TTTabBarView.swift */; };
 		04484A6321EDC41800AAC43A /* TabbarShowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04484A5E21EDC41800AAC43A /* TabbarShowView.swift */; };
-		04484A6621EDC43900AAC43A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04484A6421EDC43800AAC43A /* Info.plist */; };
-		04484A6721EDC43900AAC43A /* TTTabBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 04484A6521EDC43800AAC43A /* TTTabBarView.h */; };
+		04484A7321EDDEBC00AAC43A /* TTTabBarView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04484A3C21EDC10100AAC43A /* TTTabBarView.framework */; };
+		04484A7621EDDF0300AAC43A /* TTTabBarView-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04484A7421EDDEF300AAC43A /* TTTabBarView-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04484A3C21EDC10100AAC43A /* TTTabBarView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TTTabBarView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04484A5A21EDC41800AAC43A /* FixedTabbarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FixedTabbarView.swift; sourceTree = "<group>"; };
-		04484A5D21EDC41800AAC43A /* TTTabBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTTabBarView.swift; sourceTree = "<group>"; };
 		04484A5E21EDC41800AAC43A /* TabbarShowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarShowView.swift; sourceTree = "<group>"; };
-		04484A6421EDC43800AAC43A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04484A6521EDC43800AAC43A /* TTTabBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTabBarView.h; sourceTree = "<group>"; };
+		04484A7421EDDEF300AAC43A /* TTTabBarView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TTTabBarView-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,7 +25,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04484A5421EDC3A900AAC43A /* TTTabBarView.framework in Frameworks */,
+				04484A7321EDDEBC00AAC43A /* TTTabBarView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +37,7 @@
 			children = (
 				04484A3E21EDC10100AAC43A /* TTTabBarView */,
 				04484A3D21EDC10100AAC43A /* Products */,
+				04484A7221EDDEBC00AAC43A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,11 +54,16 @@
 			children = (
 				04484A5A21EDC41800AAC43A /* FixedTabbarView.swift */,
 				04484A5E21EDC41800AAC43A /* TabbarShowView.swift */,
-				04484A5D21EDC41800AAC43A /* TTTabBarView.swift */,
-				04484A6421EDC43800AAC43A /* Info.plist */,
-				04484A6521EDC43800AAC43A /* TTTabBarView.h */,
+				04484A7421EDDEF300AAC43A /* TTTabBarView-Info.plist */,
 			);
 			path = TTTabBarView;
+			sourceTree = "<group>";
+		};
+		04484A7221EDDEBC00AAC43A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,7 +73,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04484A6721EDC43900AAC43A /* TTTabBarView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,7 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04484A6621EDC43900AAC43A /* Info.plist in Resources */,
+				04484A7621EDDF0300AAC43A /* TTTabBarView-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,7 +145,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04484A6221EDC41800AAC43A /* TTTabBarView.swift in Sources */,
 				04484A5F21EDC41800AAC43A /* FixedTabbarView.swift in Sources */,
 				04484A6321EDC41800AAC43A /* TabbarShowView.swift in Sources */,
 			);
@@ -282,11 +282,13 @@
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = TTTabBarView/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -297,7 +299,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,11 +310,13 @@
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = TTTabBarView/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -322,7 +326,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

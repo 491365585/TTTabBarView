@@ -1,24 +1,24 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "TTTabBarView"
-  spec.version      = "0.0.1"
+  spec.version      = "1.0.1"
   spec.summary      = "My TTTabBarView"
   spec.description  = <<-DESC
 			My TTTabBarView Test!!!
                    DESC
 
-  spec.homepage     = "https://github.com/491365585.com"
+  spec.homepage     = "https://github.com/491365585"
 
 
   spec.license      = "MIT"
-
+  spec.license = "Copyright (c) 2018年 tai. All rights reserved."
  
-  spec.author             = { "mac" => "491365585@qq.com" }
+  spec.author       = { "mac" => "491365585@qq.com" }
   
 
-  spec.platform     = :ios, "8.0"
+  spec.platform     = :ios, "6.0"
 
- 
+
 
 
 
