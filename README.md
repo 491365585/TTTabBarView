@@ -11,7 +11,7 @@ swift版tabbar标签栏。测试封装框架用
 
 使用pod以集成到项目中
 ```swift
-///当前最新版本1.0.3
+///当前最新版本1.0.5
 pod TTTabBarView 
 ```
 
