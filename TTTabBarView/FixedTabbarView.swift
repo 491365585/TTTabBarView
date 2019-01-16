@@ -146,7 +146,6 @@ public class FixedTabbarView: UIView{
         if nowIndex == index {
             return
         }
-        print(tabbarShowView.delegate!)
         moveView?(nowIndex,index)
         getNowViewIsFirsh(index: index)
         
