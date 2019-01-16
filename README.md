@@ -33,7 +33,7 @@ pod TTTabBarView
         
 
         tabbarView.moveViewIsFirst = {[unowned self] index in
-             ///print("(\(index))--->first load")
+             print("(\(index))--->first load")
         }
         
         ///把初始化数据放到前面，最后再调用填充数据的方法
